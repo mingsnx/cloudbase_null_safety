@@ -1,5 +1,6 @@
-/// orgin pub package: https://pub.dev/packages/cloudbase_core
-/// orgin pub package: https://pub.dev/packages/cloudbase_storage
+/// orgin cloudbase_core pub package: https://pub.dev/packages/cloudbase_core
+/// orgin cloudbase_auth pub package: https://pub.dev/packages/cloudbase_auth
+/// orgin cloudbase_storage pub package: https://pub.dev/packages/cloudbase_storage
 /// author: https://cloudbase.net/ & lirongcong.bennett@gmail.com
 
 library cloudbase_null_safety;

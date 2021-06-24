@@ -1,4 +1,4 @@
-/// orgin pub package: https://pub.dev/packages/cloudbase_core
+/// orgin pub package: https://pub.dev/packages/cloudbase_auth
 /// author: https://cloudbase.net/ & lirongcong.bennett@gmail.com
 
 import 'dart:async';
