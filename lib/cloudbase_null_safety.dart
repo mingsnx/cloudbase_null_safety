@@ -14,3 +14,11 @@ export 'cloudbase_core/trace.dart';
 
 export 'cloudbase_storage/storage.dart';
 export 'cloudbase_storage/response.dart';
+
+export 'cloudbase_auth/anonymousAuth.dart';
+export 'cloudbase_auth/baseAuth.dart';
+export 'cloudbase_auth/cache.dart';
+export 'cloudbase_auth/customAuth.dart';
+export 'cloudbase_auth/index.dart';
+export 'cloudbase_auth/interface.dart';
+export 'cloudbase_auth/wxAuth.dart';

@@ -1,3 +1,6 @@
+## 1.0.2
+* ✔️ cloudbase_auth
+
 ## 1.0.1
 * format code
 * edit part doc

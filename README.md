@@ -22,6 +22,8 @@ Flutter plugin for cloudbase core. Temporary alternative to the official null-sa
 
 ✔️ cloudbase_storage
 
+✔️ cloudbase_auth
+
 ## 安装
 
 在 flutter 项目的 `pubspec.yaml` 文件的 `dependencies` 中添加
