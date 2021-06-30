@@ -3,8 +3,14 @@
 Flutter plugin for cloudbase core. Temporary alternative to the official null-safety version, all APIs are consistent with the official.
 
 ## 官方 Pub Package
-[![Pub](https://img.shields.io/pub/v/cloudbase_core)]()
-[![Pub](https://img.shields.io/pub/v/cloudbase_storage)]()
+
+cloudbase_core:[![Pub](https://img.shields.io/pub/v/cloudbase_core)]()
+
+cloudbase_auth:[![Pub](https://img.shields.io/pub/v/cloudbase_auth)]()
+
+cloudbase_storage:[![Pub](https://img.shields.io/pub/v/cloudbase_storage)]()
+
+cloudbase_function:[![Pub](https://img.shields.io/pub/v/cloudbase_function)]()
 
 ## 描述 & Description
 
@@ -23,6 +29,8 @@ Flutter plugin for cloudbase core. Temporary alternative to the official null-sa
 ✔️ cloudbase_storage
 
 ✔️ cloudbase_auth
+
+✔️ cloudbase_function
 
 ## 安装
 

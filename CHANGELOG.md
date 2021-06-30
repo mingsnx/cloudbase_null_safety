@@ -1,3 +1,7 @@
+## 1.0.3
+* ✔️ cloudbase_function
+* Fix `store` null-safety bug
+
 ## 1.0.2
 * ✔️ cloudbase_auth
 

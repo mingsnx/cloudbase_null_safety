@@ -11,8 +11,8 @@ class AnonymousAuthProvider extends AuthProvider {
 
   Future<CloudBaseAuthState> signInAnonymously() async {
     /// 如果本地存有uuid则匿名登录时传给server
-    String uuid = await cache.getStore(cache.anonymousUuidKey);
-    String refreshToken = await cache.getStore(cache.refreshTokenKey);
+    String? uuid = await cache.getStore(cache.anonymousUuidKey);
+    String? refreshToken = await cache.getStore(cache.refreshTokenKey);
     final CloudBaseAuthType? loginType =
         await cache.getStore(cache.loginTypeKey);
     final CloudBaseResponse? res = await CloudBaseRequest(super.core)
@@ -52,8 +52,8 @@ class AnonymousAuthProvider extends AuthProvider {
   /// 匿名账号数据迁移到正式账号
   Future<CloudBaseAuthState> linkAndRetrieveDataWithTicket(
       String ticket) async {
-    String uuid = await cache.getStore(cache.anonymousUuidKey);
-    String refreshToken = await cache.getStore(cache.refreshTokenKey);
+    String? uuid = await cache.getStore(cache.anonymousUuidKey);
+    String? refreshToken = await cache.getStore(cache.refreshTokenKey);
     final CloudBaseResponse? res = await CloudBaseRequest(super.core)
         .postWithoutAuth('auth.linkAndRetrieveDataWithTicket', {
       'anonymous_uuid': uuid,

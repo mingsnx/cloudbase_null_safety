@@ -67,7 +67,7 @@ class AuthProvider implements ICloudBaseAuth {
     Map<String, dynamic> params = {'refresh_token': refreshToken};
 
     /// 匿名登录时传入uuid，若refresh token过期则可根据此uuid进行延期
-    CloudBaseAuthType authType = await cache.getStore(cache.loginTypeKey);
+    CloudBaseAuthType? authType = await cache.getStore(cache.loginTypeKey);
     if (authType == CloudBaseAuthType.ANONYMOUS) {
       params['anonymous_uuid'] = await cache.getStore(cache.anonymousUuidKey);
     }

@@ -1,6 +1,7 @@
 /// orgin cloudbase_core pub package: https://pub.dev/packages/cloudbase_core
 /// orgin cloudbase_auth pub package: https://pub.dev/packages/cloudbase_auth
 /// orgin cloudbase_storage pub package: https://pub.dev/packages/cloudbase_storage
+/// orgin cloudbase_function pub package: https://pub.dev/packages/cloudbase_function
 /// author: https://cloudbase.net/ & lirongcong.bennett@gmail.com
 
 library cloudbase_null_safety;
@@ -23,3 +24,5 @@ export 'cloudbase_auth/customAuth.dart';
 export 'cloudbase_auth/index.dart';
 export 'cloudbase_auth/interface.dart';
 export 'cloudbase_auth/wxAuth.dart';
+
+export 'cloudbase_function/cloudbase_function.dart';
