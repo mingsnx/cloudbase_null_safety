@@ -58,7 +58,7 @@ class Trace {
     await _setLocalValue(_traceCacheKey, _traceCacheValue!);
   }
 
-  Future<String> _getLocalValue(String key) async {
+  Future<String?> _getLocalValue(String key) async {
     if (_store == null) {
       _store = await CloudBaseStore().init();
     }

@@ -1,3 +1,6 @@
+## 1.0.3+1
+* Fix `trace` null-safety bug
+
 ## 1.0.3
 * ✔️ cloudbase_function
 * Fix `store` null-safety bug
