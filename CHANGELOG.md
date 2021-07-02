@@ -1,3 +1,6 @@
+## 1.0.4
+* Fix `CloudBaseResponse.fromMap` null-safety bug
+
 ## 1.0.3+1
 * Fix `trace` null-safety bug
 
