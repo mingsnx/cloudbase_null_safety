@@ -97,7 +97,7 @@ class CloudBaseStorage {
     });
 
     CloudBaseStorageRes<List<DeleteMetadata>> deleteRes =
-        CloudBaseStorageRes(requestId: res.requestId, data: list);
+        CloudBaseStorageRes(requestId: res.requestId!, data: list);
     return deleteRes;
   }
 
@@ -133,7 +133,7 @@ class CloudBaseStorage {
     });
 
     CloudBaseStorageRes<List<DownloadMetadata>> getUrlRes =
-        CloudBaseStorageRes(requestId: res.requestId, data: list);
+        CloudBaseStorageRes(requestId: res.requestId!, data: list);
     return getUrlRes;
   }
 
@@ -152,7 +152,7 @@ class CloudBaseStorage {
 
     UploadMetadata metadata = UploadMetadata.fromMap(res.data);
     CloudBaseStorageRes<UploadMetadata> storageRes =
-        CloudBaseStorageRes(requestId: res.requestId, data: metadata);
+        CloudBaseStorageRes(requestId: res.requestId!, data: metadata);
 
     return storageRes;
   }

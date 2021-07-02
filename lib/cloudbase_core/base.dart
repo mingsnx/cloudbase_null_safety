@@ -73,7 +73,7 @@ class CloudBaseResponse {
   String? message;
 
   /// requestId
-  String requestId;
+  String? requestId;
 
   /// CloudBaseResponse({...})
   CloudBaseResponse(
