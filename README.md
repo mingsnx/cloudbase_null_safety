@@ -12,7 +12,7 @@
 
 > Latest Version
 > 
-> [![Pub](https://shields.io/badge/pub-v1.0.4-ff69b4)](https://pub.flutter-io.cn/packages/cloudbase_null_safety)
+> [![Pub](https://shields.io/badge/pub-v1.0.5-ff69b4)](https://pub.flutter-io.cn/packages/cloudbase_null_safety)
 > 
 Flutter plugin for cloudbase core. Temporary alternative to the official null-safety version, all APIs are consistent with the official.
 

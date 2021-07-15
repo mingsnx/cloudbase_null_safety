@@ -9,7 +9,7 @@ import 'interface.dart';
 import 'package:flutter/services.dart';
 
 class WxAuthProvider extends AuthProvider {
-  static const MethodChannel _channel = const MethodChannel('cloudbase_auth');
+  static const MethodChannel _channel = const MethodChannel('cloudbase_null_safety');
 
   WxAuthProvider(CloudBaseCore core) : super(core);
 
