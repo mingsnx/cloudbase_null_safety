@@ -16,6 +16,12 @@
 > 
 Flutter plugin for cloudbase core. Temporary alternative to the official null-safety version, all APIs are consistent with the official.
 
+```diff
+- cloudbase_auth 的 微信授权登录暂时无法使用，请先使用其他方式进行登录，谢谢
+
++ 直至下个版本完善后再进行更新发布
+```
+
 ## 官方 Pub Package
 |PackageName|Pub Url|
 | :------------ |:---------------:|
