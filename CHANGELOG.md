@@ -1,3 +1,6 @@
+## 1.1.0
+* ✔️ Resolve the native platform [wxAuth] exception。Thanks,[@meson-larry](https://github.com/meson-larry)，[@hedali](https://github.com/hedali)
+
 ## 1.0.5
 * Fix CloudBaseError [AUTH_FAILED]: MissingPluginException(No implementation found for method wxauth.register on channel cloudbase_auth) bug。Thanks,[@meson-larry](https://github.com/meson-larry)
 

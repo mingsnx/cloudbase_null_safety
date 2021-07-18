@@ -12,14 +12,12 @@
 
 > Latest Version
 > 
-> [![Pub](https://shields.io/badge/pub-v1.0.5-ff69b4)](https://pub.flutter-io.cn/packages/cloudbase_null_safety)
+> [![Pub](https://shields.io/badge/pub-v1.1.0-ff69b4)](https://pub.flutter-io.cn/packages/cloudbase_null_safety)
 > 
 Flutter plugin for cloudbase core. Temporary alternative to the official null-safety version, all APIs are consistent with the official.
 
 ```diff
-- cloudbase_auth 的 微信授权登录暂时无法使用，请先使用其他方式进行登录，谢谢
-
-+ 直至下个版本完善后再进行更新发布
++ 1.1.0 version resolve the native platform [wxAuth] exception
 ```
 
 ## 官方 Pub Package

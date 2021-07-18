@@ -41,6 +41,9 @@ public class CloudbaseAuthPlugin implements FlutterPlugin, MethodCallHandler {
       case "wxauth.login":
         handleWxAuthLogin(call, result);
         break;
+      default:
+        result.success("OK");
+        break;
     }
   }
 
