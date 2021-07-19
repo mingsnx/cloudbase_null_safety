@@ -1,0 +1,45 @@
+PODS:
+  - Aspects (1.4.1)
+  - cloudbase_null_safety (0.0.1):
+    - Aspects
+    - Flutter
+    - WechatOpenSDK
+  - Flutter (1.0.0)
+  - package_info (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - WechatOpenSDK (1.8.7.1)
+
+DEPENDENCIES:
+  - cloudbase_null_safety (from `.symlinks/plugins/cloudbase_null_safety/ios`)
+  - Flutter (from `Flutter`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Aspects
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  cloudbase_null_safety:
+    :path: ".symlinks/plugins/cloudbase_null_safety/ios"
+  Flutter:
+    :path: Flutter
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  cloudbase_null_safety: bb5852edde62d1bd56dd94c3d7ff82d7218c0538
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1
