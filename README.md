@@ -12,12 +12,13 @@
 
 > Latest Version
 > 
-> [![Pub](https://shields.io/badge/pub-v1.1.0-ff69b4)](https://pub.flutter-io.cn/packages/cloudbase_null_safety)
+> [![Pub](https://shields.io/badge/pub-v1.1.1-ff69b4)](https://pub.flutter-io.cn/packages/cloudbase_null_safety)
 > 
 Flutter plugin for cloudbase core. Temporary alternative to the official null-safety version, all APIs are consistent with the official.
 
 ```diff
 + 1.1.0 version resolve the native platform [wxAuth] exception
++ 1.1.1 version resolve [!] No podspec found for cloudbase_null_safety in .symlinks/plugins/cloudbase_null_safety/ios
 ```
 
 ## 官方 Pub Package

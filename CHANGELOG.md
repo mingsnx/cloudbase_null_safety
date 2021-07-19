@@ -1,3 +1,6 @@
+## 1.1.1
+* ✔️ resolve [!] No podspec found for cloudbase_null_safety in .symlinks/plugins/cloudbase_null_safety/ios。Thanks, [@hedali](https://github.com/hedali)
+
 ## 1.1.0
 * ✔️ Resolve the native platform [wxAuth] exception。Thanks,[@meson-larry](https://github.com/meson-larry)，[@hedali](https://github.com/hedali)
 
