@@ -1,3 +1,7 @@
+## 1.1.2
+
+- Migrated from the deprecated package_info plugin to package_info_plus.
+
 ## 1.1.1
 * ✔️ resolve [!] No podspec found for cloudbase_null_safety in .symlinks/plugins/cloudbase_null_safety/ios。Thanks, [@hedali](https://github.com/hedali)
 
