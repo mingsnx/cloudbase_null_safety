@@ -1,6 +1,6 @@
 name: cloudbase_null_safety
 description: Flutter plugin for cloudbase core. Temporary alternative to the official null-safety version, all APIs are consistent with the official.
-version: 1.1.1
+version: 1.1.2
 homepage: https://github.com/mingsnx/cloudbase_null_safety
 
 environment:
@@ -13,7 +13,7 @@ dependencies:
   dio: ^4.0.0
   shared_preferences: ^2.0.6
   crypto: ^3.0.1
-  package_info: ^2.0.2
+  package_info_plus: ^1.0.4
 
 dev_dependencies:
   flutter_test:

@@ -6,7 +6,7 @@ import 'dart:convert';
 /// author: https://cloudbase.net/ & lirongcong.bennett@gmail.com
 
 import 'package:crypto/crypto.dart';
-import 'package:package_info/package_info.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
 /// 移动应用安全来源
 class Sign {
