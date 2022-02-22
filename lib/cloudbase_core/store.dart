@@ -9,11 +9,11 @@ const String _CLOUDBASE_KEY = 'cloudbase_store';
 /// 使用 Map 存储 key-value
 /// 然后 JSON 格式化 Map 使用 shared_preferences 存储到本地
 class CloudBaseStore {
-  late SharedPreferences _prefs;
+  SharedPreferences? _prefs;
 
   /// 初始化 CloudBaseStore
   Future<CloudBaseStore> init() async {
-    _prefs = await SharedPreferences.getInstance();
+    _prefs ??= await SharedPreferences.getInstance();
     return this;
   }
 
@@ -23,7 +23,7 @@ class CloudBaseStore {
   }
 
   Future<Map> _getStoreMap() async {
-    String? storeValue = _prefs.get(_getStoreKey()) as String?;
+    String? storeValue = _prefs?.get(_getStoreKey()) as String?;
     if (storeValue != null) {
       return jsonDecode(storeValue);
     }
@@ -32,7 +32,7 @@ class CloudBaseStore {
 
   Future<bool> _setStoreMap(Map storeMap) async {
     String value = jsonEncode(storeMap);
-    return _prefs.setString(_getStoreKey(), value);
+    return await _prefs?.setString(_getStoreKey(), value) ?? false;
   }
 
   /// get value by key
