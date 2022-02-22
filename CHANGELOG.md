@@ -1,5 +1,6 @@
 ## 1.1.2
-
+- ✔️ cloudbase_database
+- 示例下 `example` 有完整的腾讯云官方单元测试用例，均完成全部通过.
 - Migrated from the deprecated package_info plugin to package_info_plus.
 
 ## 1.1.1
