@@ -70,4 +70,4 @@ CloudBaseCore core = CloudBaseCore.init({
 
 ## 详细文档
 
-[云开发·初始化](https://docs.cloudbase.net/api-reference/flutter/initialization.html)
+[云开发·初始化](https://docs.cloudbase.net/api-reference/flutter/initialization)
