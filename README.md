@@ -19,6 +19,7 @@ Flutter plugin for cloudbase core. Temporary alternative to the official null-sa
 ```diff
 + 1.1.0 version resolve the native platform [wxAuth] exception
 + 1.1.1 version resolve [!] No podspec found for cloudbase_null_safety in .symlinks/plugins/cloudbase_null_safety/ios
++ 1.1.2 version added cloudbase_database
 ```
 
 ## 官方 Pub Package
