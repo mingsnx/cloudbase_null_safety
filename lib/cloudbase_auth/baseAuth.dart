@@ -2,7 +2,10 @@
 /// author: https://cloudbase.net/ & lirongcong.bennett@gmail.com
 
 import 'dart:async';
+
+import 'package:cloudbase_null_safety/cloudbase_core/base.dart';
 import 'package:cloudbase_null_safety/cloudbase_null_safety.dart';
+
 import 'cache.dart';
 
 class AuthProvider implements ICloudBaseAuth {

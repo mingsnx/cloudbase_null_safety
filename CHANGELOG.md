@@ -1,3 +1,6 @@
+## 1.1.3
+- Fix cloudbase_database 包文件导出
+
 ## 1.1.2
 - ✔️ cloudbase_database
 - 示例下 `example` 有完整的腾讯云官方单元测试用例，均完成全部通过.

@@ -10,7 +10,6 @@ import 'package:cloudbase_null_safety/cloudbase_database/query.dart';
 import 'package:cloudbase_null_safety/cloudbase_database/realtime/listener.dart';
 import 'package:cloudbase_null_safety/cloudbase_database/realtime/snapshot.dart';
 import 'package:cloudbase_null_safety/cloudbase_database/response.dart';
-import 'package:cloudbase_null_safety/test_method_channel.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
